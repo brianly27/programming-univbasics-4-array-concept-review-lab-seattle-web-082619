@@ -4,7 +4,7 @@ def find_element_index(array, value_to_find)
   while array[counter] do
     value = array[counter]
     if find = value
-      find = counter  
+      find = counter
     end
     counter += 1
   end
