@@ -5,10 +5,12 @@ end
 def find_max_value(array)
   counter = 0
   max_value = 0
-  while counter < array.length { |value|
+  while counter < array.length { |i|
+    value = i 
     if value > max_value
       max_value = value
-      counter += 1
+    end
+    counter +=1
   }
   max_value
 end
