@@ -1,11 +1,13 @@
 def find_element_index(array, value_to_find)
   counter = 0
   find = value_to_find
-  while array.legnth > counter do |i|
-    value = i
+  while array.legnth > counter do
+    value = array[counter]
     if find == value
       find = counter
-    elsif
+      break
+    elsif find != value
+      find = nil
     end
     counter += 1
   end
