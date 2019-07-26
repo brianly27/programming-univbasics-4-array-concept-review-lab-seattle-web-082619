@@ -1,12 +1,11 @@
 def find_element_index(array, value_to_find)
   counter = 0
   find = value_to_find
-  while array[counter] do
+  while array.legnth > counter do
     value = array[counter]
     if find == value
       find = counter
-      break
-
+    elsif 
     end
     counter += 1
   end
