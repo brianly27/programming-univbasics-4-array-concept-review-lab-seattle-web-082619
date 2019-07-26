@@ -1,4 +1,4 @@
-def find_element_index(array, value_to_find)
+def find_element_index(array, value_to_find) [2,3,4,5] 4
   counter = 0
   find = value_to_find
   while array.size > counter do
@@ -7,7 +7,7 @@ def find_element_index(array, value_to_find)
       find = counter
       break
     elsif find != value
-      find = nil
+      find = 77
     end
     counter += 1
   end
